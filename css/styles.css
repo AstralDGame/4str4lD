@@ -21,7 +21,7 @@ body{
 }
 
 .header{
-	height: 100vh;
+	height: 80vh;
 	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%),url(../img/Wallpaper.jpg) #989898;
  background-blend-mode: multiply,multiply;
 	background-repeat: no-repeat;
@@ -104,11 +104,14 @@ a {
 
 .contenedor-servicio img{
 	width: 60%;
-
 }
 
 .checklist-servicio{
-	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 70%;
 }
 
 .service{
@@ -131,6 +134,12 @@ a {
  font-weight: 700;
  line-height: 30px;
  margin-right: 5px;
+}
+.img-portada{
+	margin: 50px;
+	padding: 50px;
+	background: #f2f2f2;
+	width: 180vh;
 }
 .Gallery{
 	background: #f2f2f2;
@@ -231,7 +240,6 @@ footer{
 	width: 40%;
 	color: #fff;
 }
-
 .brand{
 	font-weight: 500;
 	font-size: 40px;
